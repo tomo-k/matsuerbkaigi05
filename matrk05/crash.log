@@ -1,0 +1,302 @@
+Crashlog created at 2013-12-12 23:18:09 +0900
+
+===== MESSAGE:
+
+Psych::SyntaxError: (./nanoc.yaml): did not find expected key while parsing a block mapping at line 4 column 1
+
+===== COMPILATION STACK:
+
+  (empty)
+
+===== STACK TRACE:
+
+  0. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/psych.rb:203:in `parse'
+  1. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/psych.rb:203:in `parse_stream'
+  2. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/psych.rb:151:in `parse'
+  3. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/psych.rb:127:in `load'
+  4. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/psych.rb:297:in `block in load_file'
+  5. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/psych.rb:297:in `open'
+  6. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/psych.rb:297:in `load_file'
+  7. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/base/source_data/site.rb:366:in `build_config'
+  8. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/base/source_data/site.rb:49:in `initialize'
+  9. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:26:in `new'
+  10. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:26:in `site'
+  11. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:167:in `site'
+  12. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:172:in `compiler'
+  13. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:177:in `stack'
+  14. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:282:in `write_compilation_stack'
+  15. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:124:in `write_compact_error'
+  16. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:98:in `print_error'
+  17. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:77:in `rescue in handle_while'
+  18. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:55:in `handle_while'
+  19. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  20. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/command_runner.rb:13:in `call'
+  21. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  22. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
+  23. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
+  24. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
+  25. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:262:in `run'
+  26. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli.rb:52:in `block in run'
+  27. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  28. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  29. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib/nanoc/cli.rb:50:in `run'
+  30. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/bin/nanoc:19:in `<top (required)>'
+  31. /Users/inoue/.rbenv/versions/1.9.3-p392/bin/nanoc:23:in `load'
+  ... 34 more lines omitted. See full crash log for details.
+
+===== VERSION INFORMATION:
+
+nanoc 3.6.4 © 2007-2013 Denis Defreyne.
+Running ruby 1.9.3 (2013-02-22) on x86_64-darwin12.2.1 with RubyGems 1.8.23.
+
+===== SYSTEM INFORMATION:
+
+Darwin ino-h.local 13.0.0 Darwin Kernel Version 13.0.0: Thu Sep 19 22:22:27 PDT 2013; root:xnu-2422.1.72~6/RELEASE_X86_64 x86_64
+
+===== INSTALLED GEMS:
+
+  RedCloth 4.2.9
+  actionmailer 3.2.8, 3.2.11, 3.2.13, 4.0.0
+  actionpack 3.2.8, 3.2.11, 3.2.13, 4.0.0.rc2, 4.0.0
+  activemodel 3.2.8, 3.2.11, 3.2.13, 4.0.0
+  activerecord 3.2.8, 3.2.11, 3.2.13, 4.0.0
+  activerecord-deprecated_finders 1.0.3
+  activeresource 3.2.8, 3.2.11, 3.2.13
+  activesupport 3.2.8, 3.2.11, 3.2.13, 4.0.0.rc2, 4.0.0, 4.0.1
+  adsf 1.1.1
+  allison 2.0.3
+  arel 3.0.2, 4.0.0, 4.0.1
+  ast 1.1.0
+  atomic 1.1.12, 1.1.13, 1.1.14
+  bcrypt-ruby 3.0.1, 3.1.2
+  bigdecimal 1.1.0
+  bluecloth 2.2.0
+  builder 3.0.4, 3.1.4, 3.2.0, 3.2.2
+  bundler 1.3.0
+  capistrano 2.14.2, 2.15.5
+  capistrano-ext 1.2.1
+  capistrano_colors 0.5.5
+  capistrano_rsync_with_remote_cache 2.4.0
+  carrierwave 0.9.0
+  celluloid 0.15.2
+  chunky_png 1.2.5
+  classifier 1.3.3
+  coderay 1.0.9, 1.1.0
+  coffee-rails 3.2.2, 4.0.0
+  coffee-script 2.2.0
+  coffee-script-source 1.4.0, 1.5.0, 1.6.1, 1.6.2, 1.6.3
+  colored 1.2
+  commonjs 0.2.6, 0.2.7
+  compass 0.12.2
+  coveralls 0.7.0
+  cri 2.3.0
+  devise 2.2.3, 3.1.0
+  diff-lcs 1.1.3, 1.2.1, 1.2.4, 1.2.5
+  directory_watcher 1.4.1
+  docile 1.1.0
+  dxruby_sdl 0.0.5
+  echoe 4.6.3
+  erubis 2.7.0
+  excon 0.18.5, 0.19.5, 0.25.3
+  execjs 1.4.0, 2.0.1
+  factory_girl 4.2.0
+  factory_girl_rails 4.2.1
+  fast-stemmer 1.0.1
+  ffi 1.9.0, 1.9.3
+  fog 1.9.0, 1.10.0, 1.14.0, 1.15.0
+  formatador 0.2.4
+  fssm 0.2.9
+  gemcutter 0.7.1
+  google-analytics-rails 0.0.4
+  guard 2.2.3
+  guard-rspec 4.0.4
+  guard-rubocop 1.0.0
+  haml 3.1.7, 4.0.0, 4.0.3
+  haml-rails 0.4
+  handlebars 0.4.0
+  hashr 0.0.22
+  highline 1.6.15, 1.6.19
+  hike 1.2.1, 1.2.2, 1.2.3
+  httparty 0.12.0
+  i18n 0.6.1, 0.6.4, 0.6.5
+  io-console 0.3
+  jbuilder 1.5.1
+  jekyll 0.12.0
+  journey 1.0.4
+  jquery-rails 2.1.3, 2.2.0, 2.2.1, 3.0.4
+  json 1.5.5, 1.7.5, 1.7.6, 1.7.7, 1.8.0, 1.8.1
+  json_pure 1.7.7, 1.8.0
+  kaminari 0.14.1
+  kramdown 0.13.8, 0.14.2, 1.1.0
+  lda-ruby 0.3.8
+  less 2.2.2, 2.3.1, 2.3.2, 2.4.0
+  less-rails 2.2.6, 2.3.2, 2.3.3, 2.4.2
+  less-rails-bootstrap 2.2.1, 2.3.2, 2.3.3, 3.0.3
+  libv8 3.11.8.13, 3.11.8.17, 3.16.14.3
+  liquid 2.3.0
+  listen 0.7.3, 1.2.3, 1.3.0, 2.2.0
+  lockfile 2.1.0
+  lumberjack 1.0.4
+  mail 2.4.4, 2.5.4
+  markaby 0.7.2
+  maruku 0.6.1
+  maxruby 1.0.0
+  metaclass 0.0.1
+  method_source 0.8.1, 0.8.2
+  mime-types 1.19, 1.21, 1.23, 1.24, 1.25, 2.0
+  mini_portile 0.5.2
+  minitest 2.5.1, 4.6.1, 4.7.5
+  mocha 0.13.2
+  mogok 1.0.6
+  multi_json 1.3.7, 1.5.0, 1.6.1, 1.7.3, 1.7.8, 1.7.9, 1.8.0, 1.8.2
+  multi_xml 0.5.5
+  multipart-post 1.1.5
+  mustache 0.99.4
+  mysql2 0.3.11, 0.3.13
+  nanoc 3.6.1, 3.6.4
+  net-scp 1.0.4, 1.1.0, 1.1.2
+  net-sftp 2.1.1, 2.1.2
+  net-ssh 2.6.5, 2.6.6, 2.6.8, 2.7.0
+  net-ssh-gateway 1.2.0
+  nokogiri 1.5.6, 1.5.10
+  orm_adapter 0.4.0
+  pandoc-ruby 0.6.0, 0.7.4, 0.7.5
+  parse-ruby-client 0.1.12
+  parser 2.0.0
+  patron 0.4.18
+  pg 0.15.1, 0.16.0
+  polyglot 0.3.3
+  posix-spawn 0.3.6
+  powerpack 0.0.9
+  pry 0.9.12, 0.9.12.2, 0.9.12.3
+  pusher 0.11.3
+  pygments.rb 0.3.4, 0.4.2, 0.5.2
+  rack 1.2.8, 1.4.1, 1.4.4, 1.4.5, 1.5.2
+  rack-cache 1.2
+  rack-protection 1.5.0
+  rack-ssl 1.3.2, 1.3.3
+  rack-test 0.6.2
+  rails 3.2.8, 3.2.11, 3.2.13, 4.0.0
+  rails_12factor 0.0.2
+  rails_serve_static_assets 0.0.1
+  rails_stdout_logging 0.0.2
+  railties 3.2.8, 3.2.11, 3.2.13, 4.0.0.rc2, 4.0.0
+  rainbow 1.1.4
+  rainpress 1.0
+  rake 0.9.2.2, 10.0.2, 10.0.3, 10.0.4, 10.1.0
+  rb-fsevent 0.9.1, 0.9.3
+  rb-inotify 0.9.1, 0.9.2
+  rb-kqueue 0.2.0
+  rdiscount 1.6.8, 2.0.7, 2.0.7.1, 2.1.6
+  rdoc 3.9.5, 3.12, 3.12.2, 4.0.0, 4.0.1
+  redcarpet 2.2.2, 3.0.0
+  ref 1.0.2, 1.0.5
+  rest-client 1.6.7
+  rsdl 0.1.4
+  rspec 2.12.0, 2.14.1
+  rspec-core 2.12.0, 2.12.2, 2.13.1, 2.14.4, 2.14.5, 2.14.7
+  rspec-expectations 2.12.0, 2.12.1, 2.13.0, 2.14.1, 2.14.2, 2.14.4
+  rspec-mocks 2.12.0, 2.12.1, 2.13.0, 2.14.3, 2.14.4
+  rspec-rails 2.12.0, 2.13.0, 2.14.0
+  rubocop 0.15.0
+  ruby-hmac 0.4.0
+  ruby-progressbar 0.0.10
+  rubyforge 2.0.4
+  rubypants 0.2.0
+  rubysdl 2.1.2
+  sass 3.1.20, 3.2.3, 3.2.5, 3.2.6, 3.2.7, 3.2.9, 3.2.10
+  sass-globbing 1.0.0
+  sass-rails 3.2.5, 3.2.6, 4.0.0
+  scaruby 0.1.0
+  sdoc 0.3.20
+  sha3-ruby 0.0.1
+  shoulda 3.5.0
+  shoulda-context 1.1.6
+  shoulda-matchers 2.4.0
+  signature 0.1.7
+  simplecov 0.7.1, 0.8.1
+  simplecov-html 0.7.1, 0.8.0
+  sinatra 1.4.2
+  slim 1.3.6, 2.0.1
+  slop 3.4.3, 3.4.6
+  smalruby 0.0.2
+  sprockets 2.1.3, 2.2.2, 2.10.0
+  sprockets-rails 2.0.0
+  sqlite3 1.3.6, 1.3.7, 1.3.8
+  stringex 1.4.0
+  syntax 1.0.0
+  systemu 2.5.2
+  temple 0.5.5, 0.6.6
+  term-ansicolor 1.2.2
+  therubyracer 0.11.3, 0.11.4, 0.12.0
+  therubyracer-heroku 0.8.1.pre3
+  thor 0.16.0, 0.17.0, 0.18.1
+  thread_safe 0.1.2, 0.1.3
+  tilt 1.3.3, 1.3.4, 1.3.5, 1.3.7, 1.4.1
+  timers 1.1.0
+  tins 0.13.1
+  travis-lint 1.7.0
+  treetop 1.4.12, 1.4.15
+  turbolinks 1.3.0
+  twitter-bootstrap-rails 2.2.0, 2.2.6, 2.2.8
+  typogruby 1.0.15, 1.0.16
+  tzinfo 0.3.35, 0.3.37, 0.3.38
+  uglifier 1.3.0, 2.1.1, 2.1.2, 2.2.0, 2.2.1
+  w3c_validators 1.2
+  warden 1.2.1, 1.2.3
+  yajl-ruby 1.1.0
+  yard 0.8.5, 0.8.7.3
+  yuicompressor 1.2.0, 1.2.1
+
+===== ENVIRONMENT:
+
+AWS_HOST_NAME => "s3-ap-northeast-1.amazonaws.com"
+AWS_KEY => "AKIAIDKKYCWSX7AD5VZA"
+AWS_SECRET => "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"
+Apple_PubSub_Socket_Render => "/tmp/launch-Li5DLS/Render"
+DISPLAY => "/tmp/launch-kqjMcr/org.macosforge.xquartz:0"
+DLYD_LIBRARY_PATH => "/usr/local/mysql/lib"
+FACEBOOK_KEY => "733123136716963"
+FACEBOOK_SECRET => "e0331f4cdbde8bab5466ce524ed4b31b"
+HOME => "/Users/inoue"
+LANG => "ja_JP.UTF-8"
+LOGNAME => "inoue"
+PARSE_APPLICATION_ID => "XKwMCTKbCPQYOSKAfKUWdVWvPJCx4A2lX86ilCex"
+PARSE_REST_API_KEY => "g22fwpu2oBEJrdG8oZAZCxkyPMjbZaerQB27L94b"
+PATH => "/Users/inoue/.rbenv/versions/1.9.3-p392/bin:/usr/local/Cellar/rbenv/0.4.0/libexec:/Users/inoue/.rbenv/plugins/ruby-build/bin:/Applications/appengine-java-sdk-1.8.2/bin:/Applications/dart/dart-sdk/bin:/Users/inoue/.AWS-ElasticBeanstalk-CLI-2.4.0/eb/macosx/python2.7:/usr/local/mysql/bin:/Users/inoue/.rbenv/shims:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"
+PUSHER_APP_ID => "58479"
+PUSHER_KEY => "bf23f061cad60c87aa61"
+PUSHER_SECRET => "63845ff180aaddb42aa0"
+PWD => "/Users/inoue/GoogleDrive/github/matsuerbkaigi05/matrk05"
+RBENV_DIR => "/Users/inoue/GoogleDrive/github/matsuerbkaigi05/matrk05"
+RBENV_HOOK_PATH => ":/Users/inoue/.rbenv/rbenv.d:/usr/local/etc/rbenv.d:/etc/rbenv.d:/usr/lib/rbenv/hooks"
+RBENV_ROOT => "/Users/inoue/.rbenv"
+RBENV_VERSION => "1.9.3-p392"
+SHELL => "/bin/bash"
+SHLVL => "1"
+SSH_AUTH_SOCK => "/tmp/launch-gFrCRh/Listeners"
+TERM => "xterm-256color"
+TERM_PROGRAM => "Apple_Terminal"
+TERM_PROGRAM_VERSION => "326"
+TERM_SESSION_ID => "DB285C60-1F5D-48C5-8551-D331EAC6A3BD"
+TMPDIR => "/var/folders/1x/bsc77b750m962tt51p0k7fdw0000gn/T/"
+USER => "inoue"
+__CF_USER_TEXT_ENCODING => "0x1F5:1:14"
+__CHECKFIX1436934 => "1"
+
+===== LOAD PATHS:
+
+  0. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib
+  1. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/colored-1.2/lib
+  2. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib
+  3. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/nanoc-3.6.4/lib
+  4. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/bundler-1.3.0/lib
+  5. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/gems/1.9.1/gems/rack-1.5.2/lib
+  6. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/site_ruby/1.9.1
+  7. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/site_ruby/1.9.1/x86_64-darwin12.2.1
+  8. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/site_ruby
+  9. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/vendor_ruby/1.9.1
+  10. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/vendor_ruby/1.9.1/x86_64-darwin12.2.1
+  11. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/vendor_ruby
+  12. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1
+  13. /Users/inoue/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/x86_64-darwin12.2.1
