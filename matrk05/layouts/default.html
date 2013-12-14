@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>MATSUE RUBY KAIGI 05</title>
 
-    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -13,8 +13,10 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/css/carousel.css">
-    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/application.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
@@ -31,18 +33,17 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <h1><img src="/img/matrb05Logo.png" alt="MATSUE Ruby Kaigi 05"></h1>
+          <h1><img src="img/matrb05Logo.png" alt="MATSUE Ruby Kaigi 05"></h1>
           </div>
 
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
               <li><a href="#">ホーム</a>
+              <li><a href="#guidance">開催概要</a>
               <li><a href="#infomation">新着・お知らせ</a>
               <li><a href="#program">プログラム</a>
-              <li><a href="#summary">開催概要</a>
-              <li><a href="#summary">プログラム</a>
-              <li><a href="#summary">参加登録の案内</a>
-              <li><a href="#summary">お問い合わせ先</a>
+              <li><a href="#register">参加登録の案内</a>
+              <li><a href="#support">お問い合わせ先</a>
             </ul>
           </div><!-- /.navbar-collapse -->
 
@@ -53,15 +54,13 @@
     <div class="top-image"></div>
     <%#= render '_carousel' %>
 
-    <div class="container marketing">
+    <div class="container mark">
 
       <%= yield %>
 
       <!-- FOOTER -->
       <footer>
-        <div style="float: right">
-          <p>powered by <a href="http://nanoc.ws/">nanoc</a>.</p>
-        </div>
+        <p class="text-center"><a href="http://matsue.rubyist.net/"><img src="img/h_logo.jpg" alt="matsuerb"></a></p>
       </footer>
 
     </div><!-- /.container -->
@@ -70,7 +69,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/holder.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
  </html>
