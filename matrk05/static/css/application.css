@@ -18,9 +18,11 @@ body {
   .container ul,
   .container ol,
   .container dt,
-  .container dd,
   .container p {
     margin-left: 50px;
+  }
+  .container dd {
+    margin-left: 80px;
   }
 
 
