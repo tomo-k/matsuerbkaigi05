@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATSUE RUBY KAIGI 05</title>
+    <meta name="description" content="松江Ruby会議 05 2014 ― 3月15日（土）オープンソースラボにて開催。">
+    <meta property="og:title" content="松江Ruby会議 05">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://matsue.rubyist.net/">
+    <meta property="og:description" content="松江Ruby会議 05 2014 ― 3月15日（土）オープンソースラボにて開催。">
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>"> 
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/application.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+  </head>
+  <body>
+
+    <header class="bs-docs-nav" role="banner">
+      <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1><img src="img/matrb05Logo.png" alt="MATSUE Ruby Kaigi 05"></h1>
+          </div>
+
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">ホーム</a>
+              <li><a href="#guidance">開催概要</a>
+              <li><a href="#infomation">新着・お知らせ</a>
+              <li><a href="#program">プログラム</a>
+              <li><a href="#register">参加登録の案内</a>
+              <li><a href="#support">お問い合わせ先</a>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+
+        </div><!-- /.container -->
+      </nav>
+    </header>
+
+    <div class="top-image"></div>
+    <%#= render '_carousel' %>
+
+    <div class="container mark">
+
+      <%= yield %>
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="text-center"><a href="http://matsue.rubyist.net/"><img src="img/h_logo.jpg" alt="matsuerb"></a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+ </html>
