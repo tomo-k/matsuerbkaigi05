@@ -237,7 +237,7 @@ table {
   }
   pre,
   blockquote {
-    border: 1px solid #999;
+    border: 1px solid #cc3366;
     page-break-inside: avoid;
   }
   thead {
@@ -400,7 +400,7 @@ h6,
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #cc3366;
 }
 
 h1 small,
@@ -678,7 +678,7 @@ abbr[data-original-title] {
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid #cc3366;
 }
 
 blockquote p {
@@ -695,7 +695,7 @@ blockquote small,
 blockquote .small {
   display: block;
   line-height: 1.428571429;
-  color: #999999;
+  color: #cc3366;
 }
 
 blockquote small:before,
@@ -706,7 +706,7 @@ blockquote .small:before {
 blockquote.pull-right {
   padding-right: 15px;
   padding-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #cc3366;
   border-left: 0;
 }
 
@@ -4801,8 +4801,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
+  background: url(../img/topimg.png) no-repeat center center;
   border-color: #080808;
+  background-size: cover;
+  -moz-background-size:cover;
 }
 
 .navbar-inverse .navbar-brand {
@@ -4816,11 +4818,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: #cc3366;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #87CEFA;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,

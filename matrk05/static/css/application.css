@@ -3,8 +3,7 @@ body {
 }
 .top-image {
   position: relative;
-  height: 400px;
-  background: url(../img/topimg.jpg) no-repeat center center;
+  height: 130px;
   background-size: cover;
 }
 .nav {
